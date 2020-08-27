@@ -1,0 +1,14 @@
+com.plusauth.android
+com.plusauth.android.api
+com.plusauth.android.api.internal
+com.plusauth.android.api.request
+com.plusauth.android.auth
+com.plusauth.android.auth.exceptions
+com.plusauth.android.auth.login
+com.plusauth.android.auth.logout
+com.plusauth.android.crypto
+com.plusauth.android.customtabs
+com.plusauth.android.jwt
+com.plusauth.android.model
+com.plusauth.android.storage
+com.plusauth.android.util
