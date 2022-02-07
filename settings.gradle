@@ -1,2 +1,3 @@
+include ':plusauth'
 include ':app'
-rootProject.name = "PlusAuthAndroid"
+rootProject.name = "plusauth-oidc-android"

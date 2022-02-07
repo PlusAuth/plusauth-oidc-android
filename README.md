@@ -1,5 +1,5 @@
 # PlusAuth OpenID Connect Library for Android
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PlusAuth/plusauth-oidc-android/blob/master/LICENSE) ![Version](https://img.shields.io/badge/version-1.0.0-green)  ![Android Api](https://img.shields.io/badge/android-16%2B-green) [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/PlusAuth/plusauth-oidc-android/issues) ![Vulnerability](https://img.shields.io/snyk/vulnerabilities/github/PlusAuth/plusauth-oidc-android?style=flat-square)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PlusAuth/plusauth-oidc-android/blob/master/LICENSE) ![Version](https://img.shields.io/badge/version-1.0.0-green)  ![Android Api](https://img.shields.io/badge/android-21%2B-green) [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/PlusAuth/plusauth-oidc-android/issues) ![Vulnerability](https://img.shields.io/snyk/vulnerabilities/github/PlusAuth/plusauth-oidc-android?style=flat-square)
 
 Android OpenId Connect library that can be used with any OIDC provider for easy to use authentication. We value developer time and effort, so we developed a dead simple zero config library that any one could easily integrate in a minute, while allowing veterans of authentication to customize everything to their needs.
 
@@ -65,8 +65,8 @@ To use the library you must have a OIDC provider account. In this part we will u
 2. Navigate to `Clients` tab and create a client of type `Native Application`.
 3. Go to details page of the client that you've just created and set the following fields as:
 
-- Redirect Uris: `${your-application-id}/callback`
-- Post Logout Redirect Uris: `${your-application-id}/callback`
+- Redirect Uris: `${your-application-id}:/callback`
+- Post Logout Redirect Uris: `${your-application-id}:/callback`
 
 
 Done! Note your 'Client Id' and 'domain' for library configuration later.
