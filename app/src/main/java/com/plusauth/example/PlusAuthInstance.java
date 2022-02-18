@@ -1,14 +1,16 @@
-package com.plusauth.android;
+package com.plusauth.example;
 
 import android.content.Context;
+
+import com.plusauth.android.OIDC;
+import com.plusauth.android.OIDCBuilder;
 
 public class PlusAuthInstance {
     private static OIDC plusAuth;
 
     public static OIDC get(Context context) {
         if (plusAuth == null) {
-            //plusAuth = new OIDCBuilder(context, "<YOUR_CLIENT_ID>", "https://<YOUR_TENANT_ID>.plusauth.com")
-            plusAuth = new OIDCBuilder(context, "dezwrNoatwzUJO4FtsOFIWyDQbTMex3dfXlOaGQrCHPCcRFp", "https://starters.plusauth.com")
+            plusAuth = new OIDCBuilder(context, "<YOUR_CLIENT_ID>", "https://<YOUR_TENANT_ID>.plusauth.com")
                     .setLoggingEnabled(true)
                     .build();
         }

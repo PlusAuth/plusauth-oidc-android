@@ -1,4 +1,4 @@
-package com.plusauth.android;
+package com.plusauth.example;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.plusauth.android.OIDC;
 import com.plusauth.android.auth.exceptions.AuthenticationException;
 import com.plusauth.android.auth.login.LoginRequest;
 import com.plusauth.android.auth.logout.LogoutRequest;

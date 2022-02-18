@@ -1,4 +1,4 @@
-package com.plusauth.android;
+package com.plusauth.example;
 
 import org.junit.Test;
 
