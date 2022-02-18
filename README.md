@@ -1,5 +1,5 @@
 # PlusAuth OpenID Connect Library for Android
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PlusAuth/plusauth-oidc-android/blob/master/LICENSE) ![Version](https://img.shields.io/badge/version-1.0.0-green)  ![Android Api](https://img.shields.io/badge/android-21%2B-green) [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/PlusAuth/plusauth-oidc-android/issues) ![Vulnerability](https://img.shields.io/snyk/vulnerabilities/github/PlusAuth/plusauth-oidc-android?style=flat-square)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PlusAuth/plusauth-oidc-android/blob/master/LICENSE) ![Version](https://img.shields.io/badge/version-0.1.10-green)  ![Android Api](https://img.shields.io/badge/android-21%2B-green) [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/PlusAuth/plusauth-oidc-android/issues) ![Vulnerability](https://img.shields.io/snyk/vulnerabilities/github/PlusAuth/plusauth-oidc-android?style=flat-square)
 
 Android OpenId Connect library that can be used with any OIDC provider for easy to use authentication. We value developer time and effort, so we developed a dead simple zero config library that any one could easily integrate in a minute, while allowing veterans of authentication to customize everything to their needs.
 
@@ -34,7 +34,7 @@ PlusAuth OpenID Connect Library for Android supports Android Apis starting from 
 Add the library dependency to your `build.gradle` file:
 
 ```gradle
-implementation 'com.plusauth.android:oidc:1.0.0'
+implementation 'com.plusauth.android:oidc:0.1.10'
 ```
 
 This library uses and requires Java 8 support. Check out [Android Documentation](https://developer.android.com/studio/write/java8-support.html) to learn more.
