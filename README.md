@@ -34,7 +34,7 @@ PlusAuth OpenID Connect Library for Android supports Android Apis starting from 
 Add the library dependency to your `build.gradle` file:
 
 ```gradle
-implementation 'com.plusauth.android:oidc:0.1.10'
+implementation 'com.plusauth:android:0.1.10'
 ```
 
 This library uses and requires Java 8 support. Check out [Android Documentation](https://developer.android.com/studio/write/java8-support.html) to learn more.
